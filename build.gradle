@@ -135,7 +135,7 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
     include(implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.1.1")))
     for (String module in port_lib_modules.split(",")) {
-        modImplementation(include("io.github.fabricators_of_create.Porting-Lib:$module:$port_lib_version+$minecraft_base_version"))
+        modImplementation(include("io.github.fabricators_of_create.Porting-Lib:$module:$port_lib_version+1.19.2"))
     }
 
     api(include('com.electronwill.night-config:core:3.6.6'))
