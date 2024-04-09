@@ -231,7 +231,7 @@ jar {
 
     manifest {
         attributes([
-            "Specification-Title"     : "Hephaestus",
+            "Specification-Title"     : "Hephaestus17",
             "Specification-Vendor"    : "Slime Knights",
             "Specification-Version"   : "1", // We are version 1 of ourselves
             "Implementation-Title"    : project.name,
