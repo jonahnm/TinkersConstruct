@@ -204,7 +204,7 @@ processResources {
         "reach_entity_attributes_version": reach_entity_attributes_version
     ]
     for (String module in port_lib_modules.split(","))
-        properties.put("port_lib_${module}_version".toString(), "$port_lib_version+$project.minecraft_base_version")
+        properties.put("port_lib_${module}_version".toString(), "$port_lib_version+1.19.2")
     properties.put("port_lib_tags_version", "3.0") // the weird one
 
     properties.forEach((k, v) -> inputs.property(k, v))
